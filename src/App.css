@@ -4,6 +4,12 @@
 	margin: 0;
 	padding: 0;
 }
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 :root {
 	font-size: calc(16px + (24 - 16)*(100vw - 320px)/(1920 - 320));
 }
