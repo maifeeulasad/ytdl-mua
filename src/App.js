@@ -15,7 +15,19 @@ class App extends React.Component{
   }
 
   onUrlChange = (e) => {
-    this.setState({url:e.target.value},()=>{console.log(this.state.url)})
+    this.setState({url:e.target.value})
+  }
+
+  onDownloadClick = (e) => {
+    e.preventDefault();
+    if(this.state.url===undefined || this.state.url===''){
+      return;
+    }
+    this.download(this.state.url);
+  }
+
+  download(url){
+
   }
 
   render(){
@@ -23,8 +35,8 @@ class App extends React.Component{
       <div className="center">
         <form action="" className="search-bar">
 	        <input required onChange={(e)=>{this.onUrlChange(e)}}/>
-	        <button className="search-btn" type="submit">
-		        <span>Search</span>
+	        <button className="search-btn" onClick={(e)=>{this.onDownloadClick(e)}}>
+		        <span>Download</span>
 	        </button>
         </form>
       </div>
