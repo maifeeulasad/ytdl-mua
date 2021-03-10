@@ -2,8 +2,12 @@ import React from 'react';
 
 import './App.css';
 
-//const fs = require('fs');
-//const ytdl = require('ytdl-core');
+const fs = require('fs');
+const ytdl = require('ytdl-core');
+
+const { Url } = require('url');
+const URL = Url;
+const url = require('url');
 
 class App extends React.Component{
 
@@ -23,11 +27,12 @@ class App extends React.Component{
     if(this.state.url===undefined || this.state.url===''){
       return;
     }
-    this.download(this.state.url);
+    console.log(url.format(this.state.url))
+    this.download(url.format(this.state.url));
   }
 
   download(url){
-
+    ytdl(url);
   }
 
   render(){
