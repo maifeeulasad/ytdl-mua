@@ -7141,9 +7141,9 @@ mini-css-extract-plugin@0.11.3:
     webpack-sources "^1.1.0"
 
 miniget@^4.0.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/miniget/-/miniget-4.2.0.tgz#0004e95536b192d95a7d09f4435d67b9285481d0"
-  integrity sha512-IzTOaNgBw/qEpzkPTE7X2cUVXQfSKbG8w52Emi93zb+Zya2ZFrbmavpixzebuDJD9Ku4ecbaFlC7Y1cEESzQtQ==
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/miniget/-/miniget-4.2.1.tgz#11a1c24817a059e292378eb9cff4328d9240c665"
+  integrity sha512-O/DduzDR6f+oDtVype9S/Qu5hhnx73EDYGyZKwU/qN82lehFZdfhoa4DT51SpsO+8epYrB3gcRmws56ROfTIoQ==
 
 minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
   version "1.0.1"
@@ -11415,10 +11415,10 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-ytdl-core@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/ytdl-core/-/ytdl-core-4.5.0.tgz#f07733387c548e5c3a5614c93ef55bde666eeaf4"
-  integrity sha512-e8r6skrakWNixsVlNPBMoRM1HrdW1swE97If9nenDUjF65uogYk4DvxIuqlmqRfBWKe+6aIZwqedNxUU9XLYJA==
+ytdl-core@^4.8.2:
+  version "4.8.2"
+  resolved "https://registry.yarnpkg.com/ytdl-core/-/ytdl-core-4.8.2.tgz#f034ad942c5d958f5987fc8ff0b0639664ae2fb7"
+  integrity sha512-O3n++YcgZawaXJwbPmnRDgfN6b4kU0DpNdkI9Na5yM3JAdfJmoq5UHc8v9Xjgjr1RilQUUh7mhDnRRPDtKr0Kg==
   dependencies:
     m3u8stream "^0.8.3"
     miniget "^4.0.0"
