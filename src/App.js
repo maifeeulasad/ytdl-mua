@@ -9,6 +9,12 @@ const { Url } = require('url');
 const URL = Url;
 const url = require('url');
 
+
+const HttpsProxyAgent = require('https-proxy-agent');
+
+const proxy = 'http://111.111.111.111:8080';
+const agent = HttpsProxyAgent(proxy);
+
 class App extends React.Component{
 
   constructor(props){
@@ -32,7 +38,9 @@ class App extends React.Component{
   }
 
   download(url){
-    ytdl(url);
+    ytdl(url,{
+      requestOptions: { agent },
+    });
   }
 
   render(){
